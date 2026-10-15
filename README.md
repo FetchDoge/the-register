@@ -2,7 +2,7 @@
 
 **Compiles this account's public-repo register from named checks, and refuses to publish when any check fails.**
 
-[![controls](https://github.com/marsojuji-cmyk/the-register/actions/workflows/controls.yml/badge.svg)](https://github.com/marsojuji-cmyk/the-register/actions/workflows/controls.yml)
+[![controls](https://github.com/FetchDoge/the-register/actions/workflows/controls.yml/badge.svg)](https://github.com/FetchDoge/the-register/actions/workflows/controls.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-3776AB.svg)](.github/workflows/controls.yml)
 
@@ -20,7 +20,7 @@ someone else can re-run and argue with.
 ## Quickstart
 
 ```bash
-git clone https://github.com/marsojuji-cmyk/the-register && cd the-register
+git clone https://github.com/FetchDoge/the-register && cd the-register
 python3 -m pip install pyyaml                 # the only dependency, plus an authenticated gh CLI
 python3 tools/tests/test_validator.py         # 19/19 controls: the method's own evidence
 python3 tools/compile_register.py --refresh   # compiles REGISTER.md from live state

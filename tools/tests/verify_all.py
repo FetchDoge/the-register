@@ -203,7 +203,7 @@ def z6_z7() -> None:
         "Compiles this account's public-repo register from named checks. "
         "A pre-push gate refuses unclean repos."
     )
-    _, live = run(["gh", "api", "repos/marsojuji-cmyk/the-register", "--jq", ".description"])
+    _, live = run(["gh", "api", "repos/FetchDoge/the-register", "--jq", ".description"])
     live = live.strip()
     check("Z7 repository description matches this source", live == canonical,
           "in sync" if live == canonical else f"live: {live[:64]!r}")

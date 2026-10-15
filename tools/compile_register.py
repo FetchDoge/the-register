@@ -29,7 +29,7 @@ sys.path.insert(0, str(HERE))
 
 from validate_workflows import check_text  # noqa: E402
 
-OWNER = "marsojuji-cmyk"
+OWNER = "FetchDoge"
 CACHE = HERE / "workflows"
 INDEX = HERE / "workflow-index.json"
 

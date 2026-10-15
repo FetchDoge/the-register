@@ -5,7 +5,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-OWNER = "marsojuji-cmyk"
+OWNER = "FetchDoge"
 OUT = Path(__file__).resolve().parent / "workflows"
 OUT.mkdir(parents=True, exist_ok=True)
 

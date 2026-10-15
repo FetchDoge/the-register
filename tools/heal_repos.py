@@ -23,7 +23,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-OWNER = "marsojuji-cmyk"
+OWNER = "FetchDoge"
 ROOT = Path(__file__).resolve().parents[1]
 
 MIT = """MIT License

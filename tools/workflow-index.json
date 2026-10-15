@@ -6,6 +6,11 @@
   },
   {
     "repo": "agentready",
+    "path": ".github/workflows/ci.yml",
+    "local": "agentready/ci.yml"
+  },
+  {
+    "repo": "agentready",
     "path": ".github/workflows/scan-on-issue.yml",
     "local": "agentready/scan-on-issue.yml"
   },
@@ -13,6 +18,11 @@
     "repo": "beacon",
     "path": ".github/workflows/agent.yml",
     "local": "beacon/agent.yml"
+  },
+  {
+    "repo": "beacon",
+    "path": ".github/workflows/ci.yml",
+    "local": "beacon/ci.yml"
   },
   {
     "repo": "ep-aec-conformance",
@@ -41,6 +51,11 @@
   },
   {
     "repo": "intent-spec",
+    "path": ".github/workflows/ci.yml",
+    "local": "intent-spec/ci.yml"
+  },
+  {
+    "repo": "intent-spec",
     "path": ".github/workflows/claims.yml",
     "local": "intent-spec/claims.yml"
   },
@@ -51,6 +66,11 @@
   },
   {
     "repo": "interlock-forensics",
+    "path": ".github/workflows/ci.yml",
+    "local": "interlock-forensics/ci.yml"
+  },
+  {
+    "repo": "interlock-forensics",
     "path": ".github/workflows/claims.yml",
     "local": "interlock-forensics/claims.yml"
   },
@@ -58,6 +78,31 @@
     "repo": "permit",
     "path": ".github/workflows/ci.yml",
     "local": "permit/ci.yml"
+  },
+  {
+    "repo": "permit",
+    "path": ".github/workflows/forge.yml",
+    "local": "permit/forge.yml"
+  },
+  {
+    "repo": "porcupine",
+    "path": ".github/workflows/ci.yml",
+    "local": "porcupine/ci.yml"
+  },
+  {
+    "repo": "porcupine",
+    "path": ".github/workflows/codeql.yml",
+    "local": "porcupine/codeql.yml"
+  },
+  {
+    "repo": "quote-rescue",
+    "path": ".github/workflows/ci.yml",
+    "local": "quote-rescue/ci.yml"
+  },
+  {
+    "repo": "receipt-sorter",
+    "path": ".github/workflows/smoke.yml",
+    "local": "receipt-sorter/smoke.yml"
   },
   {
     "repo": "reclamation-evidence-ledger",

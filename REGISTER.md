@@ -4,9 +4,9 @@
 A hand-written register is true on the day it is written and silently false afterwards;
 this one cannot drift, because it prints nothing it has not just checked.
 
-- **Account:** `marsojuji-cmyk`
-- **Compiled:** 2026-10-07 23:43 MDT
-- **Repos read:** 18 public
+- **Account:** `FetchDoge`
+- **Compiled:** 2026-10-15 02:18 MDT
+- **Repos read:** 25 public
 - **Method:** `tools/validate_workflows.py` · sha256 `9ec811231609512e…`
 - **Method's evidence:** `tools/tests/test_validator.py` · sha256 `7ffab996e59f5f34…`
 - **Workflow data:** fetched live during this run
@@ -16,20 +16,27 @@ another claim that can drift from the artifact it describes.
 
 | repo | SECURITY.md | workflows | gate | tests/ | check cmd in README |
 |---|---|---|---|---|---|
+| `FetchDoge` | ✅ | — | — | — | — |
 | `adversarial-seat` | ✅ | 1 | ✅ clean | — | ✅ |
-| `agentready` | ✅ | 1 | ✅ clean | — | ✅ |
-| `beacon` | ✅ | 1 | ✅ clean | — | ✅ |
+| `agent-job-board` | ✅ | — | — | — | — |
+| `agent-provenance-benchmark` | ✅ | — | — | — | — |
+| `agentready` | ✅ | 2 | ✅ clean | — | ✅ |
+| `beacon` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `ep-aec-conformance` | ✅ | 1 | ✅ clean | ✅ | ✅ |
 | `exhibit` | ✅ | 1 | ✅ clean | ✅ | ✅ |
+| `fetchdoge-warehouse-system` | ✅ | — | — | — | — |
 | `governor` | ✅ | 1 | ✅ clean | ✅ | ✅ |
 | `hermes-refuse` | ✅ | 1 | ✅ clean | — | ✅ |
 | `honestyield.dev` | ✅ | 1 | ✅ clean | — | ✅ |
-| `intent-spec` | ✅ | 1 | ✅ clean | — | ✅ |
+| `intent-spec` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `interlock` | ✅ | 1 | ✅ clean | ✅ | ✅ |
-| `interlock-forensics` | ✅ | 1 | ✅ clean | — | ✅ |
+| `interlock-forensics` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `marsojuji-cmyk` | ✅ | — | — | — | — |
-| `permit` | ✅ | 1 | ✅ clean | ✅ | ✅ |
-| `quote-rescue` | ✅ | — | — | — | — |
+| `permit` | ✅ | 2 | ✅ clean | ✅ | ✅ |
+| `permit-hackathon` | ✅ | — | — | — | — |
+| `porcupine` | ✅ | 2 | ✅ clean | ✅ | ✅ |
+| `quote-rescue` | ✅ | 1 | ✅ clean | — | ✅ |
+| `receipt-sorter` | ✅ | 1 | ✅ clean | — | ✅ |
 | `reclamation-evidence-ledger` | ✅ | 3 | ✅ clean | ✅ | ✅ |
 | `sovereign-contracts` | ✅ | 2 | ✅ clean | — | ✅ |
 | `star-lab` | ✅ | 2 | ✅ clean | ✅ | ✅ |
@@ -37,8 +44,8 @@ another claim that can drift from the artifact it describes.
 
 ## Totals
 
-- `SECURITY.md` present: **18/18**
-- repos with at least one workflow: **16/18**
+- `SECURITY.md` present: **25/25**
+- repos with at least one workflow: **19/25**
 - workflows refused by the gate: **0**
 - READMEs that do not surface a check command: **0** — none
 

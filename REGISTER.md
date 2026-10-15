@@ -5,8 +5,8 @@ A hand-written register is true on the day it is written and silently false afte
 this one cannot drift, because it prints nothing it has not just checked.
 
 - **Account:** `FetchDoge`
-- **Compiled:** 2026-10-15 02:18 MDT
-- **Repos read:** 25 public
+- **Compiled:** 2026-10-15 14:30 MDT
+- **Repos read:** 27 public
 - **Method:** `tools/validate_workflows.py` · sha256 `9ec811231609512e…`
 - **Method's evidence:** `tools/tests/test_validator.py` · sha256 `7ffab996e59f5f34…`
 - **Workflow data:** fetched live during this run
@@ -21,6 +21,7 @@ another claim that can drift from the artifact it describes.
 | `agent-job-board` | ✅ | — | — | — | — |
 | `agent-provenance-benchmark` | ✅ | — | — | — | — |
 | `agentready` | ✅ | 2 | ✅ clean | — | ✅ |
+| `atomic-admission` | ❌ | 1 | ✅ clean | — | ✅ |
 | `beacon` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `ep-aec-conformance` | ✅ | 1 | ✅ clean | ✅ | ✅ |
 | `exhibit` | ✅ | 1 | ✅ clean | ✅ | ✅ |
@@ -38,14 +39,15 @@ another claim that can drift from the artifact it describes.
 | `quote-rescue` | ✅ | 1 | ✅ clean | — | ✅ |
 | `receipt-sorter` | ✅ | 1 | ✅ clean | — | ✅ |
 | `reclamation-evidence-ledger` | ✅ | 3 | ✅ clean | ✅ | ✅ |
+| `site` | ✅ | — | — | — | — |
 | `sovereign-contracts` | ✅ | 2 | ✅ clean | — | ✅ |
 | `star-lab` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `the-register` | ✅ | 1 | ✅ clean | — | ✅ |
 
 ## Totals
 
-- `SECURITY.md` present: **25/25**
-- repos with at least one workflow: **19/25**
+- `SECURITY.md` present: **26/27**
+- repos with at least one workflow: **20/27**
 - workflows refused by the gate: **0**
 - READMEs that do not surface a check command: **0** — none
 

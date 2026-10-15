@@ -107,6 +107,8 @@ is deliberately *not* in the table, because it cannot be compiled from an API.
 
 Active. CI recompiles and re-verifies the register on every push, and the Z7 canonical tracks the repo description.
 
+Built by Marcus Richards, directing AI coding agents.
+
 ## License
 
 **MIT** (see `LICENSE`), chosen 2026-10-04 and reversible.

@@ -83,7 +83,7 @@ controls, the hunt and the heal register with one instruction: **break it.** Spe
 workflow that the gate passes and that cannot fail; find a claim in the published artifacts that no
 check enforces; find a case where a refusal and an error are the same code.
 
-**This is a handoff, not a courtesy.** The charter assigns adversarial analysis to Grok Build and
+**This is a handoff, not a courtesy.** The charter assigns adversarial analysis to the coding agent and
 code to Cursor; this lane has been doing both halves itself.
 **Status: UNPLUGGED. Highest priority of the non-mechanical items.**
 

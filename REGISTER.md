@@ -5,7 +5,7 @@ A hand-written register is true on the day it is written and silently false afte
 this one cannot drift, because it prints nothing it has not just checked.
 
 - **Account:** `FetchDoge`
-- **Compiled:** 2026-10-15 15:21 MDT
+- **Compiled:** 2026-10-17 02:17 MDT
 - **Repos read:** 26 public
 - **Method:** `tools/validate_workflows.py` · sha256 `9ec811231609512e…`
 - **Method's evidence:** `tools/tests/test_validator.py` · sha256 `7ffab996e59f5f34…`
@@ -21,11 +21,10 @@ another claim that can drift from the artifact it describes.
 | `agent-job-board` | ✅ | — | — | — | — |
 | `agent-provenance-benchmark` | ✅ | — | — | — | — |
 | `agentready` | ✅ | 2 | ✅ clean | — | ✅ |
-| `atomic-admission` | ❌ | 1 | ✅ clean | — | ✅ |
+| `atomic-admission` | ✅ | 1 | ✅ clean | — | ✅ |
 | `beacon` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `ep-aec-conformance` | ✅ | 1 | ✅ clean | ✅ | ✅ |
 | `exhibit` | ✅ | 1 | ✅ clean | ✅ | ✅ |
-| `fetchdoge-warehouse-system` | ✅ | — | — | — | — |
 | `governor` | ✅ | 1 | ✅ clean | ✅ | ✅ |
 | `hermes-refuse` | ✅ | 1 | ✅ clean | — | ✅ |
 | `honestyield.dev` | ✅ | 1 | ✅ clean | — | ✅ |
@@ -34,6 +33,7 @@ another claim that can drift from the artifact it describes.
 | `interlock-forensics` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `permit` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `permit-hackathon` | ✅ | — | — | — | — |
+| `permit-memory-graph` | ✅ | — | — | — | — |
 | `porcupine` | ✅ | 2 | ✅ clean | ✅ | ✅ |
 | `quote-rescue` | ✅ | 1 | ✅ clean | — | ✅ |
 | `receipt-sorter` | ✅ | 1 | ✅ clean | — | ✅ |
@@ -45,7 +45,7 @@ another claim that can drift from the artifact it describes.
 
 ## Totals
 
-- `SECURITY.md` present: **25/26**
+- `SECURITY.md` present: **26/26**
 - repos with at least one workflow: **20/26**
 - workflows refused by the gate: **0**
 - READMEs that do not surface a check command: **0** — none
